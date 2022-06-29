@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <!--Link com Css-->
+    <link rel="stylesheet" type="text/css" href="/Css/styles.css" media="screen" />
+
+    <!--Link com ionicons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!--Link com google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1>Entre com seus dados</h1>
+
+    <div id="container">
+
+        <form method="post">
+            <input id="nome" type="text" name="nome" placeholder="Seu Nome">
+            <input id="email" type="email" name="e-mail" placeholder="Seu E-mail">
+            <input type="submit" placeholder="Enviar>"
+        </form>
+
+        <section>
+            <p>Ou se preferir entre com</p>
+            <ion-icon class="icone" name="logo-google"></ion-icon>
+            <ion-icon class="icone" name="logo-twitter"></ion-icon>                       
+        </section>
+    </div>
+
+    <script src="/Scripts/scripts.js"></script>
+
+</body>
+
+</html>
